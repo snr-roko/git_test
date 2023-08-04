@@ -1,0 +1,36 @@
+#! /bin/bash
+
+echo -e "\n~~ Job Application Form ~~\n"
+
+Q1="Type in your name"
+Q2="Type in your email"
+Q3="Type in your contact"
+Q4="Type in the position you are applying for"
+Q5="Type in your highest educational level"
+Q6="Type in the number of years of expereiece in a workplace"
+
+echo $Q1
+read NAME 
+echo $Q2
+read EMAIL 
+echo $Q3
+read CONTACT  
+echo $Q4
+read POSITON 
+echo $Q5
+read EDUCATION 
+echo $Q6
+read EXPERIENCE 
+
+echo Type Yes to Submit
+
+read SUBMIT 
+
+echo $NAME 
+echo $EMAIL
+echo $CONTACT 
+echo $POSITION 
+echo $EDUCATION
+echo $EXPERIENCE 
+
+echo Thank you for applying 
